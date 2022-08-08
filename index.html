@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Cards</title>
+    
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="pokebol icon" href="src/imagens/pokebola.png" type="image/x-icon">
+
+    <!--folhas de estilo-->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    
+
+</head>
+<body>
+    <!--cabeçalho-->
+    <header class="cabecalho">
+        <img class="pokebola" src="src/imagens/pokebola.png" alt="pokebola">
+        <h1 class="titulo">Pokemon Cards</h1>
+    </header>
+    
+    <!--conteudo-->
+    <main class="pokemon-slider">
+        <!--Botão voltar-->
+            <button class="btn-seta btn-voltar" id="btn-voltar">
+                <img src="src/imagens/seta.png" alt="seta voltar">
+            </button>
+
+            <!--lista de cartas-->
+            <ul class="lista-pokemons">
+                <!-- card pikachu -->
+                <li class="cartao selecionado fundo-1">
+                    
+                    <div class="informacoes">
+                        <h2 class="nome">Pikachu</h2>
+                        <p class="vida">HP 300</p>
+                    </div>
+                    
+                    <div class="container-imagem">
+                        <img class="imagem-pokemon" src="src/imagens/pikachu.png" alt="Pikachu">
+                    </div>
+                   
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">
+                            Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender.
+                        </p>
+                    </div>
+                </li>
+
+                <!-- card charizard -->
+                <li class="cartao  fundo-2">
+                    
+                    <div class="informacoes">
+                        <h2 class="nome">Charizard</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+                    
+                    <div class="container-imagem">
+                        <img class="imagem-pokemon" src="src/imagens/charizard.png" alt="Charizard">
+                    </div>
+                   
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">
+                            Como as suas pré-evoluções podem, ele pode usar uma variedade de movimentos tipo fogo.Sendo a última evolução de um  Pokémon tipo fogo inicial, Charizard tem a capacidade de aprender Explosão de Fogo.Seu fogo é incrivelmente quente, e descreveu a ser quente o suficiente para derreter rochas. Por causa das asas que tem crescido em evolução, Charizard pode voar e pode usar muitas habilidades tipo voador, e suas asas são capazes de levá-lo perto de uma altitude de 4.600 pés.
+                        </p>
+                    </div>
+                </li>
+
+                <!-- card mewtwo -->
+                <li class="cartao  fundo-3">
+                    
+                    <div class="informacoes">
+                        <h2 class="nome">Mewtwo</h2>
+                        <p class="vida">HP 1200</p>
+                    </div>
+                    
+                    <div class="container-imagem">
+                        <img class="imagem-pokemon" src="src/imagens/mewtwo.png" alt="Mewtwo">
+                    </div>
+                   
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">
+                            Mewtwo é altamente qualificado, com poderes psíquicos. Ele pode levitar através do uso de telecinese, falar telepaticamente, e assumir o controle da mente de outro ser vivo. Mewtwo também é capaz de empunhar vários tipos de ataques (mas em menor grau do que Mew). Para exercer suas poderosas habilidades psíquicas, ele fica parado por longos períodos de tempo em intensa concentração para aumentar as suas capacidades para a sua potência máxima.
+                        </p>
+                    </div>
+                </li>
+                
+            </ul>
+            
+            <!--Botão avançar-->
+            <button class="btn-seta" id="btn-avançar">
+                <img src="src/imagens/seta.png" alt="seta avançar">
+            </button>
+
+    </main>
+<!--JAVASCRIPT-->
+<script src="src/js/index.js"></script>
+
+
+</body>
+</html>
